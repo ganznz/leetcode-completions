@@ -36,6 +36,6 @@ var findMaxAverage = function(nums, k) {
     return maxSum / k;
 };
 
-findMaxAverage([1,12,-5,-6,50,3], k = 4) // 12.75000
-findMaxAverage([5], k = 1) // 5.00000
-findMaxAverage([-1], k = 1) // -1.00000
+findMaxAverage([1,12,-5,-6,50,3], 4) // 12.75000
+findMaxAverage([5], 1) // 5.00000
+findMaxAverage([-1], 1) // -1.00000
